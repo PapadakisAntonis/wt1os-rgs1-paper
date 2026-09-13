@@ -3,10 +3,6 @@
 Analysis code for the *Wt1os* glomerular RNA-seq and H3K27ac CUT&Tag work
 (manuscript in revision).
 
-The RNA-seq analysis was written by **Amina Lemsara** and originally released at
-[AminaLEM/Wt1os_FSGS](https://github.com/AminaLEM/Wt1os_FSGS), from which this
-repository is derived. Licensed GPL-3.0, inherited from the original.
-
 ## Layout
 
 ```
@@ -18,8 +14,7 @@ processed/            committed intermediates (consensus peak table, TF list)
 envs/                 package versions
 ```
 
-Raw data and large external files are not in this repository; `data/` is
-git-ignored. Derived tables small enough to ship live in `processed/`.
+Raw data and large external files are not in this repository. Derived tables small enough to ship can be found in `processed/`.
 
 ## Processing
 
